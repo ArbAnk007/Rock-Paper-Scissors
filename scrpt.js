@@ -49,10 +49,10 @@ function paper(){
         h2.innerHTML = `You<img src="./Assets/paper-emoji.png"> <img src="./Assets/rock-emoji.png">Bot<br>You Won!`
     }else if(botMove == 1){
         score.ties++
-        h2.innerHTML = `You<img src="./Assets/paper-emoji.png"> <img src="./Assets/rock-emoji.png">Bot<br>It is a tie!`
+        h2.innerHTML = `You<img src="./Assets/paper-emoji.png"> <img src="./Assets/paper-emoji.png">Bot<br>It is a tie!`
     }else{
         score.lost++
-        h2.innerHTML = `You<img src="./Assets/paper-emoji.png"> <img src="./Assets/rock-emoji.png">Bot<br>Bot Won!`
+        h2.innerHTML = `You<img src="./Assets/paper-emoji.png"> <img src="./Assets/scissors-emoji.png">Bot<br>Bot Won!`
     }
 
     // Displaying the score using DOM manipulation.
